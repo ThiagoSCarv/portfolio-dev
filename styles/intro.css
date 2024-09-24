@@ -1,0 +1,81 @@
+#intro {
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: cover;
+    #info {
+        width: 1040px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 80px;
+        margin-block: 120px 186px;
+        header{
+            width: 680px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            gap: 56px;
+            #avatar {
+                position: relative;
+                #user{
+                    width: 87px;
+                    height: 87px;
+                    object-fit: cover;
+                    padding: 4px;
+                    border: 2px var(--red) outset;
+                    border-radius: 50%;
+                }
+                #code {
+                    position: absolute;
+                    object-fit: cover;
+                    width: 31px;
+                    height: 25px;
+                    left: 70px;
+                    top: 70px;
+                }
+            }
+            #text {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                span{
+                    font: var(--subtitle);
+                    color: var(--gray-500);
+                    strong {
+                        color: var(--red);
+                    }
+                }
+                h1 {
+                    font: var(--title-lg);
+                    color: var(--gray-600);
+                    margin-block: 0;
+                    margin-top: 8px;
+                }
+                p {
+                    font: var(--text-sm);
+                    color: var(--gray-400);
+                    margin-block: 0;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    #tags {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        padding-inline: 143px;
+        figure {
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            span {
+                font: var(--text-md);
+                color: var(--gray-500);
+            }
+        }
+    }
+}
