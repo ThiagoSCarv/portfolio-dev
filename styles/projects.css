@@ -1,0 +1,64 @@
+main {
+    #projects {
+        background-color: var(--gray-200);
+        display: flex;
+        flex-flow: column; 
+        align-items: center;
+        
+        header {
+            margin-block: 72px 56px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            gap: 8px;
+            span {
+                font: var(--subtitle);
+                color: var(--red);
+            }
+            h2 {
+                margin-block: 0;
+                font: var(--title-md);
+                color: var(--gray-600);
+            }
+        }
+        #grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 1040px;
+            gap: 24px;
+            margin-inline: 163px;
+            margin-bottom: 144px;
+            .card {
+                margin: 0;
+                background-color: var(--gray-300);
+                border-radius: 12px;
+                padding-block: 12px 17px;
+                padding-inline: 12px;
+                img {
+                    border-radius: 8px;
+                    width: 306px;
+                    height: 156px;
+                    object-fit: cover;
+                }
+                #text-card {
+                    padding-block: 20px 17px;
+                    h3 {
+                        margin-block: 0;
+                        font: var(--title-sm);
+                        color: var(--gray-600);
+                        padding-bottom: 8px;
+                    }
+                    p {
+                        margin-block: 0;
+                        font: var(-text-sm);
+                        color: var(--gray-500);
+                    }
+                }
+            }
+        }
+        .card:hover {
+            border: 1.5px var(--gray-400) solid;
+        }
+    }
+}

@@ -1,8 +1,12 @@
 #intro {
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    align-items: center;
     background-image: url(../assets/images/Background_Intro.png);
     background-size: cover;
+    #CaretDoubleDown {
+        margin-bottom: 57px;
+    }
     #info {
         width: 1040px;
         display: flex;
