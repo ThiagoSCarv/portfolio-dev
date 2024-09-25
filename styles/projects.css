@@ -28,7 +28,7 @@ main {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            width: 1040px;
+            max-width: 1040px;
             gap: 24px;
             margin-inline: 163px;
             margin-bottom: 144px;

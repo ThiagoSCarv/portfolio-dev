@@ -8,7 +8,7 @@
         margin-bottom: 57px;
     }
     #info {
-        width: 1040px;
+        max-width: 1040px;
         display: flex;
         flex-flow: column;
         align-items: center;

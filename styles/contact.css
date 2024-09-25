@@ -1,0 +1,66 @@
+#contact {
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    header {
+        margin-block: 128px 48px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 8px;
+        span {
+            font: var(--subtitle);
+            color: var(--purple);
+        }
+        h2 {
+            margin-block: 0;
+            font: var(--title-md);
+            color: var(--gray-600);
+        }
+        p {
+            margin-block: 0;
+            font: var(--text-md);
+            color: var(--gray-500);
+        }
+    }
+    #links {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 200px;
+        a {
+            text-decoration: none;
+            figure {
+                background-color: var(--gray-300);
+                padding: 20px;
+                margin: 0;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                div {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    span {
+                       width: 288px;
+                       font: var(--text-md);
+                       color: var(--gray-500);
+                    }
+                }
+                #vector {
+                    width: 11.25px;
+                    height: 11.25px;
+                    object-fit: cover;
+                }
+            }
+        }
+        a:hover {
+            border: 1.5px solid var(--blue);
+            border-radius: 8px;
+        }
+    }
+}

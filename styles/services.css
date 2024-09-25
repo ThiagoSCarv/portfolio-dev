@@ -21,6 +21,7 @@
     }
     div {
         display: flex;
+        max-width: 888px;
         gap: 24px;
         margin-bottom: 120px;
         figure {
